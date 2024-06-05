@@ -8,10 +8,10 @@ import {signOut, useSession} from "next-auth/react";
 import styles from './TheHeader.module.scss'
 
 export const navItems = [
-	{ label: 'Home', href: '/' },
-	// { label: 'About US', href: '/about' },
-	// { label: 'Service', href: '/blog' },
-	// { label: 'Project', href: '/project' }
+	{ label: 'О нас', href: '/about' },
+	{ label: 'Услуги', href: '/blog' },
+	{ label: 'Цена', href: '/project' },
+	{ label: 'Контакты', href: '/project' }
 ]
 
 
@@ -29,17 +29,14 @@ const TheHeader = () => {
 			<div className={styles.linck}>
 				{
 					session?.data ?
-						<Link className={styles.textLink} href='#'
-							  onClick={() => signOut({ callbackUrl: '/' })}>Logout</Link>
+						<Link className={styles.btnUs} href='#'
+							  onClick={() => signOut({ callbackUrl: '/' })}>Выйти</Link>
 						:
 						<>
-							<Link className={styles.textLink} href='/signin'>Login</Link>
+							<Link className={styles.btnUs} href='/signin'>Войти</Link>
 						</>
 				}
 			</div>
-			<Link href='#' className={styles.btnUs}>
-				Contact Us
-			</Link>
 		</header>
 	)
 }

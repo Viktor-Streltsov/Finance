@@ -8,12 +8,13 @@
   align-items: flex-start;
   column-gap: 100px;
   flex-shrink: 0;
-  background: #191A19;
   padding: 65px 112px 50px;
 }
 
 .componentFooter {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .footerImage {
@@ -21,6 +22,7 @@
   flex-direction: row;
   align-items: center;
   column-gap: 14px;
+  margin-right: 50px;
 }
 
 .inputEmail {
@@ -39,8 +41,7 @@
 .headerInput {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 14px;
 }
 
@@ -62,7 +63,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .nameFooter, .textInput, .nameLink {

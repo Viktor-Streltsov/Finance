@@ -1,50 +1,51 @@
 @import "../../app/styles/mixin";
 
-.nameSlider {
-  font-size: 28px;
-  line-height: 42px;
-  font-weight: 600;
-  color: #AE1919;
-  align-items: center;
-}
-
-.textSlider {
-  max-width: 900px;
-  font-size: 20px;
-  line-height: 30px;
+.nameHeader {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
   text-align: center;
-  color: #fff;
-
-  @include laptop {
-    width: 370px;
-  }
-
-  @include tablet {
-    width: 370px;
-  }
+  color: #FFFFFF;
+  margin-bottom: 90px;
 }
 
-.nameUser {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
-  color: #fff;
-}
-
-.nameContru {
-  font-size: 12px;
-  line-height: 24px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.image {
-  border: 4px solid #AE1919;
-  border-radius: 50%;
-}
-
-.imagesMen {
+.blockList {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1255px;
+  align-items: center;
   justify-content: center;
-  padding-top: 30px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.list {
+  width: 333px;
+  height: 149px;
+  padding: 25px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #FFFFFF;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #252B42;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
 }

@@ -1,41 +1,43 @@
 import React from 'react'
 import styles from './TheYears.module.scss'
+import Link from "next/link";
+import PeopleIcons from "@/components/theFuture/icons/CircleArrowIcons";
 
 const TheYears = () => {
 	return (
 		<>
-			<ul className={styles.numbers}>
-				<li>
-					<span className={styles.textRed}>25+</span>
-					<span className={styles.textNum}>Years of Experience</span>
+			<h2 className={styles.nameHeader}>Суть финансового аудита</h2>
+			<p className={styles.textHeader}>
+				Аудит сформирует ясное понимание сложившейся финансовой ситуации в организации, покажет динамику развития
+				бизнеса, подверженность рискам с точки зрения инвестиций.
+			</p>
+			<ul className={styles.wrapperList}>
+				<li className={styles.blockList}>
+					<div className={styles.blockImg}><PeopleIcons/></div>
+					<p className={styles.text}>Прибыль</p>
 				</li>
-				<li>
-					<span className={styles.textRed}>378+</span>
-					<span className={styles.textNum}>Project Complete</span>
+				<li className={styles.blockList}>
+					<div className={styles.blockImg}><PeopleIcons/></div>
+					<p className={styles.text}>Убытки</p>
 				</li>
-				<li>
-					<span className={styles.textRed}>69+</span>
-					<span className={styles.textNum}>Winning Global Award</span>
+				<li className={styles.blockList}>
+					<div className={styles.blockImg}><PeopleIcons/></div>
+					<p className={styles.text}>Доходы</p>
+				</li>
+				<li className={styles.blockList}>
+					<div className={styles.blockImg}><PeopleIcons/></div>
+					<p className={styles.text}>Расходы</p>
+				</li>
+				<li className={styles.blockList}>
+					<div className={styles.blockImg}><PeopleIcons/></div>
+					<p className={styles.text}>Изменения в системе активов и пассивов</p>
+				</li>
+				<li className={styles.blockList}>
+					<div className={styles.blockImg}><PeopleIcons/></div>
+					<p className={styles.text}>изменения по взаиморасчетам с контрагентами</p>
 				</li>
 			</ul>
-			<div className={styles.yearsInfo}>
-				<div>
-					<h2 className={styles.nameYears}><span className={styles.yearsRed}>25 years</span><br /> of experience!</h2>
-					<p className={styles.textOne}>
-						We have a team of experienced professionals who have been in the industry for over 25 years. Our contractors
-						have a wealth of knowledge and skills that they have acquired over the years, making them experts in their
-						field.
-					</p>
-					<p className={styles.textTwo}>
-						With 25 years of experience, our contractors have a deep understanding of industry standards and
-						regulations.
-						We ensure that all our projects comply with the latest safety and building codes, and that the final product
-						meets or exceeds our clients expectations.
-					</p>
-				</div>
-				<div className={styles.blockImage}>
-				</div>
-			</div>
+			<Link className={styles.btnUs} href='#'>Оставить заявку</Link>
 		</>
 	)
 }

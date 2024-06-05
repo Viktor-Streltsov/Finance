@@ -1,19 +1,20 @@
 import React from 'react'
 import Link from 'next/link'
-import CircleArrowIcons from '@/components/theFuture/icons/CircleArrowIcons'
+import ImageOne from './icons/croods-user-interface.png'
 import styles from './TheFuture.module.scss'
+import Image from "next/image";
 
 const TheFuture = () => {
 	return (
-		<>
-			<h1 className={styles.nameHeader}>We Prepare For The <span className={styles.text}>Future</span></h1>
-			<p className={styles.textFuture}>
-				We provide the best architectural design, contruction, and
-				building maintance services for you.
-			</p>
-			<Link href={'#'} className={styles.btnServices}><span className={styles.textLink}>Our Services</span>
-				<CircleArrowIcons /></Link>
-		</>
+		<div className={styles.blockFuture}>
+			<div>
+				<h1 className={styles.nameHeader}>Финансовый аудит 2024: виды и порядок проведения</h1>
+				<Link href={'#'} className={styles.btnServices}><span className={styles.textLink}>Оставить заявку</span></Link>
+			</div>
+			<div>
+				<Image src={ImageOne} alt='img'/>
+			</div>
+		</div>
 	)
 }
 

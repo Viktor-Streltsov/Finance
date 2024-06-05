@@ -1,0 +1,106 @@
+.headerPrise {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.textHeader {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+
+.blockList {
+  width: 985px;
+  height: 622px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.listTwo {
+  width: 327px;
+  height: 582px;
+  padding: 50px 40px 50px 40px;
+  border-radius: 10px;
+  border: 1px solid #23A6F0;
+  background: #FFFFFF;
+}
+
+.listOne {
+  width: 327px;
+  height: 622px;
+  padding: 70px 40px 70px 40px;
+  border-radius: 10px;
+  background: #23A6F0;
+  border: 1px solid #23A6F0
+}
+
+.nameList {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.nameList1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.prise, .prise1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #23A6F0;
+  margin-bottom: 30px;
+}
+
+.prise1 {
+  color: #fff;
+}
+
+.blockText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.textLisr {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #252B42;
+}
+
+.btnUs, .btnUs1 {
+  width: 194px;
+  height: 66px;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin-left: 16px;
+  background: #23A6F0;
+  color: #fff;
+}
+
+.btnUs1 {
+  background: #fff;
+  color: #23A6F0;
+}

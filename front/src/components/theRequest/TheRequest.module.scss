@@ -21,9 +21,12 @@
   }
 }
 
-.blockForm, .blockInfo {
+.blockForm {
+  width: 100%;
   height: auto;
-  background: #AE1919;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   border-radius: 15px;
   padding: 42px 58px;
 }
@@ -39,20 +42,20 @@
   line-height: 36px;
   font-weight: 500;
   color: #fff;
-  margin-bottom: 24px;
 }
 
 .textForm {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
   color: #fff;
-  margin-bottom: 18px;
 }
 
 .form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 18px;
   justify-content: space-evenly;
@@ -83,6 +86,26 @@
   &:focus {
     outline: none;
   }
+}
+
+.btnInput {
+  position: relative;
+}
+
+.btnUs {
+  width: 90px;
+  height: 66px;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
+  border-radius: 15px;
+  margin-left: 16px;
+  background: #23A6F0;
+  color: #fff;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .valueService {

@@ -1,117 +1,41 @@
-.progress {
-  width: 100%;
-  margin-bottom: 60px;
-}
-
-.infoProgress {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 25px;
-}
-
-.textProgress {
-  width: 233px;
+.blockComment {
+  width: 744px;
+  padding: 40px 35px 40px 35px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  text-align: center;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  row-gap: 12px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
-  color: #fff;
-  position: relative;
-}
-
-.step {
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.indicatorProgress {
-  height: 3px;
-  background: #fff;
-}
-
-.circles {
-  width: 20px;
-  height: 20px;
-  display: grid;
-  place-items: center;
-  background: rgba(255, 255, 255, 0.2);
-  position: absolute;
-  bottom: -37px;
-  border-radius: 50%;
-}
-
-.littleCircles {
-  width: 12px;
-  height: 12px;
-  background: #fff;
-  border-radius: 50%;
+  row-gap: 30px;
 }
 
 .nameSliders {
-  font-size: 64px;
-  line-height: 96px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #252B42;
+}
+
+.work {
+  font-size: 14px;
   font-weight: 600;
-  color: #fff;
-  margin-bottom: 40px;
-}
-
-.sliderContainer {
-  height: 462px;
-  cursor: grab;
-}
-
-.textTower {
-  width: 175px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.imgesTower {
-  width: 100%;
-  height: 461px;
-  border-radius: 15px
-}
-
-.nameTower {
-  font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.renovationTower {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 500;
-  color: #ffffff;
-}
-
-.allProgect {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.textLink {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: 5px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 600;
-  color: #191A19;
-  margin: 32px 0px 106px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
 }
