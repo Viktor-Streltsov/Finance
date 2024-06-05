@@ -1,0 +1,76 @@
+@import "../../app/styles/mixin";
+
+.nameHeader {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.textHeader {
+  width: 509px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #fff;
+  margin: 10px 0 45px;
+}
+
+.wrapperList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 50px 0px;
+  gap: 30px;
+}
+
+.blockList {
+  width: 328px;
+  height: 112px;
+  border-radius: 2px;
+  border: 1px solid #E1E1E1;
+  background: #FAFAFA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 29px;
+  column-gap: 15px;
+}
+
+.blockImg {
+  width: 72px;
+  height: 72px;
+  border-radius: 200px;
+  background: #23A6F0;
+  display: grid;
+  place-items: center;
+}
+
+.text {
+  width: 202px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #737373;
+}
+
+.btnUs {
+  width: 194px;
+  display: grid;
+  place-items: center;
+  white-space: nowrap;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  background: #23A6F0;
+  color: #fff;
+}

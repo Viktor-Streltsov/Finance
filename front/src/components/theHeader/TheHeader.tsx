@@ -9,7 +9,7 @@ import styles from './TheHeader.module.scss'
 
 export const navItems = [
 	{ label: 'О нас', href: '/about' },
-	{ label: 'Услуги', href: '/blog' },
+	{ label: 'Услуги', href: '/services' },
 	{ label: 'Цена', href: '/project' },
 	{ label: 'Контакты', href: '/project' }
 ]

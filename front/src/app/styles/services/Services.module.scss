@@ -1,0 +1,34 @@
+@import "../mixin";
+
+.wrapperFuture {
+  width: 100%;
+  height: 778px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  padding: 0 112px;
+}
+
+.wrapperYears {
+  width: 100%;
+
+  padding: 60px 112px 27px;
+  position: relative;
+}
+
+.wrapperFeatured {
+  width: 100%;
+  height: 950px;
+  padding: 140px 112px;
+}
+
+.wrapperComments {
+  padding: 0 112px 140px;
+}
+
+.wrapperText {
+  height: auto;
+  padding: 0 112px 140px;
+}
